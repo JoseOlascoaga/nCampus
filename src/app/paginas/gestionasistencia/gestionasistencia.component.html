@@ -1,0 +1,47 @@
+<app-menuprofe></app-menuprofe>
+<div class="container"><hr class="text-danger border-2 opacity-50">
+    <div class="m-4 shadow-lg p-3 mb-5 bg-body rounded" style="height: 250px;"><br>
+
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <select class="form-select" formControlName="IdEstudiante">
+                    <option disabled selected>Selecciona el semestre</option>
+                     <!-- <option *ngFor="let dato of lista_asignatura" value="{{dato.IdAsignatura}}">{{dato.nombreAsig}}></option>-->
+                  </select>
+              </div>
+              <div class="col">
+                <select class="form-select">
+                    <option value="asistencia" disabled selected>Selecciona la Asignatura</option>
+                      <option value="Asig"></option>
+                  </select>
+              </div>
+              <div class="col">
+                <h1>CONCHAP</h1>
+              </div>
+            </div>
+          </div><br>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <select class="form-select" formControlName="IdEstudiante">
+                    <option disabled selected>Selecciona al estudiante</option>
+                     <!-- <option *ngFor="let dato of lista_asignatura" value="{{dato.IdAsignatura}}">{{dato.nombreAsig}}></option>-->
+                  </select>
+              </div>
+              <div class="col">
+                <select class="form-select">
+                    <option value="asistencia" selected>Asistencia</option>
+                      <option value="inasistencia">Inasistencia</option>
+                  </select>
+              </div>
+              <div class="col">
+                <p>
+                <input type="text" placeholder="Digite la fecha" class="form-control" formControlName="fecha" />
+                  </p> 
+              </div>
+            </div>
+          </div>
+    </div>
+    
+  </div><app-pie></app-pie>
